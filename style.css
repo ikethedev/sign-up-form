@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    min-height: 100vh;
+	line-height: 1;
+    align-items: center;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.container{
+    height: 100vh;
+}
+
+.page_left{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/assets/images/halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100vh;
+    width: 25vw;
+    overflow: hidden;
+}
+
+.info{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.5);
+    gap: 5px;
+    margin-top: 10.5em;
+}
+
+img{
+    width: 75px;
+    height: 100px;
+}
+
+h1{
+    color: #fff;
+    font-size: 4.5em;
+    text-transform: uppercase;
+}
+
+.page_right{
+    width: 100%;
+    height: 100vh;
+}
+
+.page_right > .hero_text {
+    font-size: 2em;
+    width: 800px;
+    padding: 2em 1em;
+}
+
+.page_right > p{
+    padding: 0 1em;
+    font-size: 2em;
+}
+
+
+
+form{
+    padding: 2em 0;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: start;
+   
+}
+
+
+.row{
+    display: flex;
+    gap: 3em;
+    margin: 1em 0;
+    width: fit-content;
+}
+
+.client_info{
+    box-shadow: 2px 1px 10px rgba(0,0,0, 0.5);
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    gap: .5em; 
+    width: fit-content;
+
+  }
+
+  label{
+    font-size: .75em; 
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  input{
+    width: 20em;
+    padding:.75em 0.5em;
+    border-radius: .5em;
+    border: 1px solid #E5E7EB;
+  }
+
+  .button button{
+    background-color: #596D48;
+    color: #ffffff;
+    padding: 1em 4em;
+    border-radius: .75em;
+    border: none;
+    box-shadow: 2px 1px 10px rgba(0,0,0, 0.5);
+  }
+
+ .button, .cta{
+    padding: 1em 2em;
+  }
+
+  .cta{
+    padding: .1em 2em;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+ .client_info{
+    padding: 2em 3em;
+ }
+
+ .error{
+    color: red;
+ }
+
+ input.error {
+    border-color: red;
+ }
+
+ input:focus{
+    box-shadow: 2px 1px 10px rgba(0,0,0, 0.5);
+    outline: #E5E7EB 1px solid;
+ }
+
+ a{
+    text-decoration: none;
+    color: #596D48;
+ }
